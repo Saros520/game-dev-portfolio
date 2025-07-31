@@ -267,24 +267,37 @@ const Projects = () => {
                       </>
                     ) : (
                       // Placeholder for TBA project
-                      <div className="w-full h-48 bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center border-b border-primary/20">
-                        <div className="text-center">
-                          <div className="w-16 h-16 bg-primary/30 rounded-full mx-auto mb-4 flex items-center justify-center">
-                            <Play size={24} className="text-primary" />
+                      project.title === 'TBA' && project.id === 4 ? (
+                        <>
+                          <img
+                            src="./Above_Full.png"
+                            alt="Above Full"
+                            className="w-full h-48 object-cover hover:scale-110 transition-transform duration-300"
+                          />
+                          <div className="absolute inset-0 bg-gradient-to-t from-dark-card/80 to-transparent"></div>
+                        </>
+                      ) : (
+                        <div className="w-full h-48 bg-gradient-to-br from-accent/20 to-secondary/20 flex items-center justify-center border-b border-accent/20">
+                          <div className="text-center">
+                            <div className="w-16 h-16 bg-accent/30 rounded-full mx-auto mb-4 flex items-center justify-center">
+                              <Play size={24} className="text-accent" />
+                            </div>
+                            <p className="text-gray-400 text-sm">Coming Soon</p>
                           </div>
-                          <p className="text-gray-400 text-sm">Coming Soon</p>
                         </div>
-                      </div>
+                      )
                     )}
                   </div>
 
                   {/* Project Info */}
                   <div className="p-6">
                     <h4 className="text-xl font-semibold mb-3 text-white">
-                      {project.title}
+                      {project.title === 'TBA' && project.id === 4 ? 'Adrenaline Rush' : project.title}
                     </h4>
                     <p className="text-gray-400 text-sm leading-relaxed">
-                      {project.description}
+                      {project.title === 'TBA' && project.id === 4 
+                        ? "You play as a mountain climber attempting to retrieve as many lost soul coins as you can. Will you be able to reach the top of this mountain and return these poor souls trapped in coin back to their rightful place, Beware though, this is a challenge."
+                        : project.description}
                     </p>
                   </div>
                 </div>
