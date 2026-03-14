@@ -7,17 +7,66 @@ const Projects = () => {
 
   const majorProjects = [
     {
+      id: 0,
+      title: 'Grave Interest',
+      description: 'You play as a medieval knight desperate to find any sort of treasure, gold or magical abilities to help pay off your family debt to a very powerful bandit gang or finally put an end to them and their tyranny. This Bandit gang has taken family members and countless others before you for failing to pay back their debts. Explore through caves, dungeons and catacombs to find valuable loot to take on the champion of this labyrinth to prove yourself worthy. Afterwards finally take out this powerful bandit gang that has taken over the kingdom above you. Are you up to the challenge? This is a 3-D, rogue-like, souls-like game made in Unity Engine.',
+      image: '/game-dev-portfolio/Screenshot_2026-03-13_205248.png',
+      playLink: '#' // Placeholder since it's in development
+    },
+    {
       id: 1,
-      title: 'Gyruss',
-      description: 'Recreated Gyruss which is a space shooter arcade game using a custom engine built in C++. You control a space ship, shoot at enemy invaders and dodge projectiles, you have 3 lives. Once you loose all 3 lives that\'s game over, this is endless, see how long you can survive.',
-      image: './Screenshot 2025-06-26 111805.png',
-      playLink: 'https://joshuagoulden520.itch.io/gyrussremade'
+      title: 'Riftbreaker: Ascension',
+      description: 'In this medieval, 3-D, FPS title made with Unity Engine. You play as a special ops soldier who is part of a top secret operation involving time and world travel. That was until the experiment went horribly wrong, now you find yourself in a world that looks medieval in nature that has been taken over by Voodoo magic. Get back to the Rift and close it before something ugly gets out. The fate of two worlds is now in your hands.',
+      image: '/game-dev-portfolio/Screenshot_2026-03-13_194705.png',
+      playLink: '#' // Placeholder since it's in development
     },
     {
       id: 2,
+      title: 'Flight From The Mire',
+      description: 'This is a 2-D, platformer game made with Unity Engine. You play as an adventurer who ventured too deep into an evil swamp that\'s swarming with creatures looking for a fight. Face your fears and jump in to battle your way through this dark environment. Will you be able to make it out of here alive?',
+      image: '/game-dev-portfolio/Screenshot_2026-03-13_194320.png',
+      playLink: '#' // Placeholder since it's in development
+    },
+    {
+      id: 3,
+      title: 'Death Through Deception',
+      description: 'You play as an investigator named Detective Christian Harper sent to investigate the recent tragedies that have plagued the region of Hope\'s End, one of which your adoptive brother Jacob Smith is a part of. A well known news reporter named Winslow Macintyre of local news station "Village Voices" has also paid close attention to this evolving story going on. The most recent tragedy has a disturbingly high death count happening in the woods nearby the village of "Hope\'s End". This was supposed to be a fun treasure hunt event started up by local Hope\'s End Treasure Hunter Jacob Smith. Where Jacob supposedly hid a lot of his treasure findings over the years out in the woods for hikers and other treasure hunters to find. But is something much darker taking place here? Jump into this 3-D, mystery, survival horror game made in Unreal Engine to find out.',
+      image: '/game-dev-portfolio/Screenshot_2026-01-14_234427.png',
+      playLink: '#' // Placeholder since it's in development
+    },
+    {
+      id: 4,
+      title: 'Speed Demons',
+      description: 'This is a 3-D racing title made in Unreal Engine, where you have to reach checkpoints before the time runs out and in the final level you face off against an Ai car. Will you be able to achieve victory in this speed machine game?',
+      image: '/game-dev-portfolio/Screenshot_2026-01-14_233353.png',
+      playLink: '#' // Placeholder since it's in development
+    },
+    {
+      id: 5,
+      title: 'Adrenaline Rush',
+      description: 'This is a 2-D, rage inducing platformer made in Unreal Engine. Where you play as a mountain climber attempting to retrieve as many lost soul coins as you can. Will you be able to reach the top of this mountain and return these poor souls trapped in coin back to their rightful place? Beware though, this is a challenge.',
+      image: '/game-dev-portfolio/Screenshot_2026-01-13_005633.png',
+      playLink: '#' // Placeholder since it's in development
+    },
+    {
+      id: 6,
+      title: 'One Stormy Day',
+      description: 'You play as a camper motoring his boat in the middle of a dangerous storm trying to return to his camp in this ominous, 2-D, side-scroller game made in Godot. Where you have to avoid rocks, and aquatic enemies. Will you be able to get off this treacherous lake in time?',
+      image: '/game-dev-portfolio/Screenshot_2026-03-13_161859.png',
+      playLink: '#' // Placeholder since it's in development
+    },
+    {
+      id: 7,
+      title: 'Gyruss',
+      description: 'Recreated Gyruss which is a space shooter arcade game using a custom engine built in C++. You control a space ship, shoot at enemy invaders and dodge projectiles, you have 3 lives. Once you loose all 3 lives that\'s game over, this is endless, see how long you can survive.',
+      image: '/game-dev-portfolio/Screenshot_2025-06-26_111805.png',
+      playLink: 'https://joshuagoulden520.itch.io/gyrussremade'
+    },
+    {
+      id: 8,
       title: 'Autobahn',
       description: 'Made a 2-D, GTA inspired, top-down pixilated game using a custom engine built in C++. You can choose which vehicle you want to drive before entering, avoid traffic as you try to escape from the cops, you can take 3 hits from other vehicles, but once you\'re caught by a cop its game over, this is endless, How far can you go?',
-      image: './Screenshot 2025-06-26 111940.png',
+      image: '/game-dev-portfolio/Screenshot_2025-06-26_111940.png',
       playLink: 'https://joshuagoulden520.itch.io/autobahn'
     }
   ];
@@ -27,31 +76,31 @@ const Projects = () => {
       id: 1,
       title: 'Game Jam Bubble Blast',
       description: 'You control a little cloud guy with a bubble gun that can shoot ordinary bubbles and charge up to shoot a big bubble to jump into and float around in, dodging spikes. Made this 2-D platformer with Love2D engine in lua during a Game Jam in the span of 4 days.',
-      image: './Screenshot 2025-06-26 112119.png'
+      image: '/game-dev-portfolio/Screenshot_2025-06-26_112119.png'
     },
     {
       id: 2,
       title: 'Original Realm Hopper',
-      description: 'You play as a knight that must travel through portals to different worlds within The Far-Realms to kill enemies to stop the event known as "The Fracture" from destroying the Multiverse. Created this original version of the rogue-like, open area section game in Love2D engine with Lua in the span of 2 weeks.',
-      image: './Screenshot 2025-06-26 112202.png'
+      description: 'You play as a knight that must travel through portals to different worlds within The Far-Realms to kill enemies to stop the event known as "The Fracture" from destroying the Multiverse. Created this original version of the 2-D, rogue-like, open area section game in Love2D engine with Lua in the span of 2 weeks.',
+      image: '/game-dev-portfolio/Screenshot_2025-06-26_112202.png'
     },
     {
       id: 3,
       title: 'Shadow Play',
       description: 'This was basically the first game I ever programmed. This is a text-based adventure game I made from scratch in C++ where you play as a knight sent by King Aragorn to defend the kingdom of Elenor from evil.',
-      image: './Screenshot 2025-06-26 111630.png'
+      image: '/game-dev-portfolio/Screenshot_2025-06-26_111630.png'
     },
     {
       id: 4,
-      title: 'TBA',
-      description: 'TBA',
-      image: null
+      title: 'Cosmo Revolt',
+      description: 'In this 2-D, sci-fi, platformer made in Unreal Engine, you play as a super soldier that gets sick and tired of being experimented on. You break out of your capsule container, and now the whole ship is on alert. Get off this ship before you find yourself back in captivity. This game was made in 1 week.',
+      image: '/game-dev-portfolio/Screenshot_2026-01-13_005109.png'
     },
     {
       id: 5,
-      title: 'TBA',
-      description: 'TBA',
-      image: null
+      title: 'Nitro Blitz',
+      description: 'This is a nighttime, 3-D, holiday style racing game where you play as a pickup truck, race against other pickup trucks and come across santa claus pickups which gives you speed boosts to blitz down the race track. This project was made in 1 week using Unity Engine.',
+      image: '/game-dev-portfolio/Screenshot_2026-03-13_212853.png'
     },
     {
       id: 6,
@@ -64,21 +113,21 @@ const Projects = () => {
   const upcomingProjects = [
     {
       id: 1,
-      title: 'One Stormy Day',
-      description: 'You play as a camper motoring his princecraft boat trying to return back to his camp. You have to avoid rocks and big waves, will you be able to get off this treacherous lake in time before failing? Currently working on this neat little 2-D, side-scrolling boat game in Godot Engine with GDScript.',
-      image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop'
-    },
-    {
-      id: 2,
       title: 'Realm Hopper',
       description: 'You play as a portal travelling knight to search for treasure, upgrade gear, defeating enemies, bosses to collect Key stones from each world to fight The evil Mind Origin and stop it from consuming The Multiverse. Join The Realm Hoppers Guild and help conquer this chaotic event, stop Mega Industries, and end The Fracture Event. This is the official full version of Realm Hopper that started getting made in Love2D now currently being worked on in Godot Engine with GDScript.',
       image: 'https://images.pexels.com/photos/1293261/pexels-photo-1293261.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop'
     },
     {
+      id: 2,
+      title: 'TBA',
+      description: 'TBA',
+      image: null
+    },
+    {
       id: 3,
-      title: 'Giman Ni Yoru Shi (Japanese for "Death Through Deception")',
-      description: 'You play as an investigator named Detective Christian Harper who has a dog companion German shepherd named Bullet. A well known news reporter named Winslow Macintyre of local news station "Village Voices" has also paid close attention to this evolving story going on. Detective Christian Harper was called in to investigate a disturbingly high death count happening in the woods nearby the village of "Hope\'s End". This was supposed to be a fun treasure hunt event started up by local Hope\'s End Treasure Hunter Jacob Smith. Where Jacob supposedly hid a lot of his treasure findings over his time out in the nearby woods for hikers and other treasure hunters to find. But is there something more dark taking place here? Started working on this mystery/horror game in Unreal Engine 5 with Blueprints and C++.',
-      image: 'https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop'
+      title: 'TBA',
+      description: 'TBA',
+      image: null
     },
     {
       id: 4,
@@ -88,12 +137,6 @@ const Projects = () => {
     },
     {
       id: 5,
-      title: 'TBA',
-      description: 'TBA',
-      image: null
-    },
-    {
-      id: 6,
       title: 'TBA',
       description: 'TBA',
       image: null
@@ -186,12 +229,29 @@ const Projects = () => {
               <div
                 key={project.id}
                 className={`grid lg:grid-cols-2 gap-12 items-center animate-slide-up ${
-                  project.title === 'Autobahn' ? 'lg:grid-flow-col-dense' : ''
+                  project.title === 'Adrenaline Rush' ? 'lg:grid-flow-col-dense' :
+                  project.title === 'Autobahn' ? '' : 
+                  project.title === 'Death Through Deception' ? 'lg:grid-flow-col-dense' :
+                  project.title === 'Flight From The Mire' ? '' :
+                  project.title === 'Grave Interest' ? '' :
+                  project.title === 'Riftbreaker: Ascension' ? 'lg:grid-flow-col-dense' :
+                  project.title === 'One Stormy Day' ? '' : 
+                  project.title === 'Gyruss' ? 'lg:grid-flow-col-dense' : ''
                 }`}
                 style={{ animationDelay: `${index * 200}ms` }}
               >
                 {/* Project Info */}
-                <div className={`space-y-6 ${project.title === 'Autobahn' ? 'lg:col-start-2' : ''}`}>
+                <div className={`space-y-6 ${
+                  project.title === 'Adrenaline Rush' ? 'lg:col-start-2' :
+                  project.title === 'Speed Demons' ? '' :
+                  project.title === 'Death Through Deception' ? 'lg:col-start-2' :
+                  project.title === 'Flight From The Mire' ? '' :
+                  project.title === 'Grave Interest' ? '' :
+                  project.title === 'Riftbreaker: Ascension' ? 'lg:col-start-2' :
+                  project.title === 'Autobahn' ? '' : 
+                  project.title === 'One Stormy Day' ? '' : 
+                  project.title === 'Gyruss' ? 'lg:col-start-2' : ''
+                }`}>
                   <h3 className="text-4xl md:text-5xl font-heading font-bold text-primary">
                     {project.title}
                   </h3>
@@ -201,13 +261,24 @@ const Projects = () => {
                 </div>
 
                 {/* Project Image and Play Button */}
-                <div className={`relative group ${project.title === 'Autobahn' ? 'lg:col-start-1' : ''}`}>
+                <div className={`relative group ${
+                  project.title === 'Adrenaline Rush' ? 'lg:col-start-1' :
+                  project.title === 'Speed Demons' ? '' :
+                  project.title === 'Death Through Deception' ? 'lg:col-start-1' :
+                  project.title === 'Flight From The Mire' ? '' :
+                  project.title === 'Grave Interest' ? '' :
+                  project.title === 'Riftbreaker: Ascension' ? 'lg:col-start-1' :
+                  project.title === 'Autobahn' ? '' : 
+                  project.title === 'One Stormy Day' ? '' : 
+                  project.title === 'Gyruss' ? 'lg:col-start-1' : ''
+                }`}>
                   <div className="relative overflow-hidden rounded-xl border border-primary/20 hover:border-primary/40 transition-all duration-300">
                     <img
                       src={project.image}
                       alt={project.title}
                       className={`w-full h-80 group-hover:scale-105 transition-transform duration-300 ${
-                        project.title === 'Autobahn' ? 'object-cover object-top' : 'object-cover'
+                        project.title === 'Autobahn' ? 'object-cover object-top' : 
+                        project.title === 'Speed Demons' ? 'object-cover object-top' : 'object-cover'
                       }`}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-dark/80 to-transparent"></div>
@@ -260,44 +331,31 @@ const Projects = () => {
                           src={project.image}
                           alt={project.title}
                           className={`w-full h-48 hover:scale-110 transition-transform duration-300 ${
-                            project.title === 'Shadow Play' ? 'object-cover object-left' : 'object-cover'
+                            project.title === 'Shadow Play' ? 'object-cover object-top' : 'object-cover'
                           }`}
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-dark-card/80 to-transparent"></div>
                       </>
                     ) : (
                       // Placeholder for TBA project
-                      project.title === 'TBA' && project.id === 4 ? (
-                        <>
-                          <img
-                            src="./Above_Full.png"
-                            alt="Above Full"
-                            className="w-full h-48 object-cover hover:scale-110 transition-transform duration-300"
-                          />
-                          <div className="absolute inset-0 bg-gradient-to-t from-dark-card/80 to-transparent"></div>
-                        </>
-                      ) : (
-                        <div className="w-full h-48 bg-gradient-to-br from-accent/20 to-secondary/20 flex items-center justify-center border-b border-accent/20">
-                          <div className="text-center">
-                            <div className="w-16 h-16 bg-accent/30 rounded-full mx-auto mb-4 flex items-center justify-center">
-                              <Play size={24} className="text-accent" />
-                            </div>
-                            <p className="text-gray-400 text-sm">Coming Soon</p>
+                      <div className="w-full h-48 bg-gradient-to-br from-accent/20 to-secondary/20 flex items-center justify-center border-b border-accent/20">
+                        <div className="text-center">
+                          <div className="w-16 h-16 bg-accent/30 rounded-full mx-auto mb-4 flex items-center justify-center">
+                            <Play size={24} className="text-accent" />
                           </div>
+                          <p className="text-gray-400 text-sm">Coming Soon</p>
                         </div>
-                      )
+                      </div>
                     )}
                   </div>
 
                   {/* Project Info */}
                   <div className="p-6">
                     <h4 className="text-xl font-semibold mb-3 text-white">
-                      {project.title === 'TBA' && project.id === 4 ? 'Adrenaline Rush' : project.title}
+                      {project.title}
                     </h4>
                     <p className="text-gray-400 text-sm leading-relaxed">
-                      {project.title === 'TBA' && project.id === 4 
-                        ? "You play as a mountain climber attempting to retrieve as many lost soul coins as you can. Will you be able to reach the top of this mountain and return these poor souls trapped in coin back to their rightful place, Beware though, this is a challenge."
-                        : project.description}
+                      {project.description}
                     </p>
                   </div>
                 </div>
