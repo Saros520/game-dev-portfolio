@@ -116,7 +116,7 @@ const Contact = () => {
           <div className="flex justify-center mb-6">
             <div className="w-32 h-32 rounded-full bg-gradient-to-br from-primary/30 to-accent/30 border-4 border-primary/50 flex items-center justify-center overflow-hidden">
               <img
-                src="./UmbraGamingCompanyLogo 2025-06-29 003028 copy.png"
+                src="/game-dev-portfolio/Screenshot_2025-07-04_210112 copy.png"
                 alt="UmbraGaming Logo"
                 className="w-full h-full object-cover scale-110"
                 onError={(e) => {
