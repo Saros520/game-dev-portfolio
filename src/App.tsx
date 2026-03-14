@@ -1,25 +1,23 @@
 import React from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Testimonials from './components/Testimonials';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Header from './Header';
+import Hero from './Hero';
+import About from './About';
+import Skills from './Skills';
+import Projects from './Projects';
+import Testimonials from './Testimonials';
+import Contact from './Contact';
+import Footer from './Footer';
 
 function App() {
   return (
-    <div className="bg-dark text-white min-h-screen">
+    <div className="min-h-screen bg-dark text-white">
       <Header />
-      <main>
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Testimonials />
-        <Contact />
-      </main>
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Testimonials />
+      <Contact />
       <Footer />
     </div>
   );
