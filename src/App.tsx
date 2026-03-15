@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from './Header';
-import Hero from './Hero';
-import About from './About';
-import Skills from './Skills';
-import Projects from './Projects';
-import Testimonials from './Testimonials';
-import Contact from './Contact';
-import Footer from './Footer';
+import Header from './Header.tsx';
+import Hero from './Hero.tsx';
+import About from './About.tsx';
+import Skills from './Skills.tsx';
+import Projects from './Projects.tsx';
+import Testimonials from './Testimonials.tsx';
+import Contact from './Contact.tsx';
+import Footer from './Footer.tsx';
 
 function App() {
   return (
