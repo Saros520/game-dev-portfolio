@@ -46,7 +46,7 @@ const Header = () => {
               onClick={() => scrollToSection('hero')}
               className="text-2xl font-heading font-bold text-primary hover:text-secondary transition-colors"
             >
-              UmbraGaming
+              Joshua Goulden
             </button>
           </div>
 
