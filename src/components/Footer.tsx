@@ -18,7 +18,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Logo and Description - Centered */}
         <div className="text-center mb-6">
-          <h3 className="text-2xl font-heading font-bold text-primary mb-2">UmbraGaming</h3>
+          <h3 className="text-2xl font-heading font-bold text-primary mb-2">Joshua Goulden</h3>
           <p className="text-gray-400">Crafting Digital Adventures</p>
         </div>
 
@@ -75,7 +75,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <p className="text-gray-500 text-xs text-center">
-            © {currentYear} UmbraGaming. All rights reserved. Built with React & Tailwind CSS.
+            © 2026 Joshua Goulden. All rights reserved. Built with React & Tailwind CSS.
           </p>
         </div>
       </div>
