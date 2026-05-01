@@ -57,9 +57,6 @@ const About = () => {
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
                 I'm a very passionate software and Game Developer with over a year and a half of experience creating immersive digital experiences. My journey began with a simple interest for Math & Physics, Technology, the weather and games which evolved overtime into a career dedicated to bringing innovative gaming concepts to life.
               </p>
-              <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                I have expertise in multiple programming languages and game engines. Programming languages and engines such as custom engine development in C++ involving SDL and OpenGL, Pico8, Love2D involving Lua, Godot with GdScript, Unreal Engine with Blueprints and learning C++ with Unreal in my spare time, plus Unity with C#. I've so far worked on everything from Text-Based adventure games to more AAA experiences. My approach combines math & technical expertise with creative storytelling to create games that not only entertain but also inspire. I am very determined in creating engaging gameplay experiences, from concept to completion, with a focus on innovative mechanics and immersive storytelling.
-              </p>
               <p className="text-lg text-gray-300 leading-relaxed">
                 When I'm not doing math & coding, you'll find me exploring the latest gaming trends, contributing to open-source projects, and brainstorming ideas for future projects such as new games or even a brand new game engine in the distant future etc.
               </p>
