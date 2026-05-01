@@ -250,7 +250,7 @@ const Hero = () => {
 
           {/* Welcome Message */}
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed animate-slide-up delay-200">
-            Welcome to my website Umbra Gaming where I have crafted immersive gaming experiences with cutting-edge technology and creative storytelling
+            Welcome to my website where I have crafted immersive gaming experiences with cutting-edge technology and creative storytelling
           </p>
 
           {/* CTA Buttons */}
