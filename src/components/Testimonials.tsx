@@ -6,28 +6,28 @@ const Testimonials = () => {
     {
       id: 1,
       name: 'Deidrei Yetman',
-      image: './Screenshot 2025-06-27 113005.png',
+      image: '/game-dev-portfolio/Screenshot_2026-05-01_151002.png',
       quote: 'Josh is an interesting person to work with, never a dull moment for sure with his constant flow of ideas and creativity. Determined, creative, headstrong. Those would be the first three word I\'d describe him with. Set in his ways, he really leans into his work when the gears of his imaginations get flowing.',
       role: 'Game Development Student'
     },
     {
       id: 2,
       name: 'Keigan Macniel',
-      image: './Screenshot 2025-06-26 161055.png',
+      image: '/game-dev-portfolio/Screenshot_2026-05-01_150517.png',
       quote: 'I had the opportunity to work with Josh on Autobahn, a team project in our game dev course. Josh brought a lot of enthusiasm and a strong personal vision to the project, and he stayed engaged throughout the process. He often took initiative in making creative decisions and was never afraid to try new ideas. He\'s a friendly and motivated team member who puts effort into seeing a project through to completion, and his dedication to the work was clear from start to finish.',
       role: 'Junior Game Developer'
     },
     {
       id: 3,
       name: 'Andrew Hollet',
-      image: './Screenshot 2025-06-27 090154.png',
+      image: '/game-dev-portfolio/Screenshot_2026-05-01_150720.png',
       quote: 'I worked with Joshua on a project and he was very hard working and determined. He would work tirelessly to accomplish his tasks and it\'s easy to see his passion. I would definitely work with Joshua again.',
       role: 'Game Development Student'
     },
     {
       id: 4,
       name: 'Alexander Wright',
-      image: './Screenshot 2025-06-27 113046.png',
+      image: '/game-dev-portfolio/Screenshot_2026-05-01_150650.png',
       quote: 'Josh is a very kind person, He is very good with Code and is very thorough when making Storylines for video games. I enjoy working with him and hope to do so in the future.',
       role: 'Game Development Student'
     },
