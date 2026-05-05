@@ -116,11 +116,11 @@ const About = () => {
             </div>
 
             <div className="relative">
-              <div className="w-80 h-80 mx-auto rounded-full overflow-hidden border-4 border-primary/30 shadow-2xl">
+              <div className="w-80 h-80 mx-auto rounded-full overflow-hidden border-4 border-primary/30 shadow-2xl bg-black flex items-center justify-center">
                 <img
                   src="/game-dev-portfolio/Screenshot_2025-07-04_210112.png"
                   alt="Joshua Goulden - Game Developer"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </div>
               
