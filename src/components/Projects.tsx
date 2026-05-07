@@ -57,17 +57,17 @@ const Projects = () => {
     },
     {
       id: 7,
-      title: 'Gyruss',
-      description: 'Recreated Gyruss which is a space shooter arcade game using a custom engine built in C++. You control a space ship, shoot at enemy invaders and dodge projectiles, you have 3 lives. Once you loose all 3 lives that\'s game over, this is endless, see how long you can survive.',
-      image: '/game-dev-portfolio/Screenshot_2026-05-01_161449.png',
-      playLink: 'https://joshuagoulden520.itch.io/gyrussremade'
-    },
-    {
-      id: 8,
       title: 'Autobahn',
       description: 'Made a 2-D, GTA inspired, top-down pixilated game using a custom engine built in C++. You can choose which vehicle you want to drive before entering, avoid traffic as you try to escape from the cops, you can take 3 hits from other vehicles, but once you\'re caught by a cop its game over, this is endless, How far can you go?',
       image: '/game-dev-portfolio/Screenshot_2025-06-26_111940.png',
       playLink: 'https://joshuagoulden520.itch.io/autobahn'
+    },
+    {
+      id: 8,
+      title: 'Gyruss',
+      description: 'Recreated Gyruss which is a space shooter arcade game using a custom engine built in C++. You control a space ship, shoot at enemy invaders and dodge projectiles, you have 3 lives. Once you loose all 3 lives that\'s game over, this is endless, see how long you can survive.',
+      image: '/game-dev-portfolio/Screenshot_2026-05-01_161449.png',
+      playLink: 'https://joshuagoulden520.itch.io/gyrussremade'
     }
   ];
 
