@@ -38,7 +38,7 @@ const Projects = () => {
       id: 4,
       title: 'Speed Demons',
       description: 'This is a 3-D racing title made in Unreal Engine, where you have to reach checkpoints before the time runs out and in the final level you face off against an Ai car. Will you be able to achieve victory in this speed machine game?',
-      image: '/game-dev-portfolio/Screenshot_2026-01-14_233353.png',
+      image: '/game-dev-portfolio/Screenshot_2026-03-13_215430.png',
       playLink: '#' // Placeholder since it's in development
     },
     {
@@ -59,7 +59,7 @@ const Projects = () => {
       id: 7,
       title: 'Autobahn',
       description: 'Made a 2-D, GTA inspired, top-down pixilated game using a custom engine built in C++. You can choose which vehicle you want to drive before entering, avoid traffic as you try to escape from the cops, you can take 3 hits from other vehicles, but once you\'re caught by a cop its game over, this is endless, How far can you go?',
-      image: '/game-dev-portfolio/Screenshot_2025-06-26_111940.png',
+      image: '/game-dev-portfolio/Screenshot_2026-05-01_161421.png',
       playLink: 'https://joshuagoulden520.itch.io/autobahn'
     },
     {
@@ -229,27 +229,28 @@ const Projects = () => {
               <div
                 key={project.id}
                 className={`grid lg:grid-cols-2 gap-12 items-center animate-slide-up ${
-                  project.title === 'Adrenaline Rush' ? 'lg:grid-flow-col-dense' :
-                  project.title === 'Autobahn' ? '' : 
-                  project.title === 'Death Through Deception' ? 'lg:grid-flow-col-dense' :
-                  project.title === 'Flight From The Mire' ? '' :
-                  project.title === 'Grave Interest' ? '' :
-                  project.title === 'Riftbreaker: Ascension' ? 'lg:grid-flow-col-dense' :
-                  project.title === 'One Stormy Day' ? '' : 
+                  project.title === 'Adrenaline Rush' ? '' :
+                  project.title === 'Speed Demons' ? 'lg:grid-flow-col-dense' :
+                  project.title === 'Autobahn' ? '' :
+                  project.title === 'Death Through Deception' ? '' :
+                  project.title === 'Flight From The Mire' ? 'lg:grid-flow-col-dense' :
+                  project.title === 'Grave Interest' ? 'lg:grid-flow-col-dense' :
+                  project.title === 'Riftbreaker: Ascension' ? '' :
+                  project.title === 'One Stormy Day' ? 'lg:grid-flow-col-dense' :
                   project.title === 'Gyruss' ? 'lg:grid-flow-col-dense' : ''
                 }`}
                 style={{ animationDelay: `${index * 200}ms` }}
               >
                 {/* Project Info */}
                 <div className={`space-y-6 ${
-                  project.title === 'Adrenaline Rush' ? 'lg:col-start-2' :
-                  project.title === 'Speed Demons' ? '' :
-                  project.title === 'Death Through Deception' ? 'lg:col-start-2' :
-                  project.title === 'Flight From The Mire' ? '' :
-                  project.title === 'Grave Interest' ? '' :
-                  project.title === 'Riftbreaker: Ascension' ? 'lg:col-start-2' :
-                  project.title === 'Autobahn' ? '' : 
-                  project.title === 'One Stormy Day' ? '' : 
+                  project.title === 'Adrenaline Rush' ? '' :
+                  project.title === 'Speed Demons' ? 'lg:col-start-2' :
+                  project.title === 'Death Through Deception' ? '' :
+                  project.title === 'Flight From The Mire' ? 'lg:col-start-2' :
+                  project.title === 'Grave Interest' ? 'lg:col-start-2' :
+                  project.title === 'Riftbreaker: Ascension' ? '' :
+                  project.title === 'Autobahn' ? '' :
+                  project.title === 'One Stormy Day' ? 'lg:col-start-2' :
                   project.title === 'Gyruss' ? 'lg:col-start-2' : ''
                 }`}>
                   <h3 className="text-4xl md:text-5xl font-heading font-bold text-primary">
@@ -262,14 +263,14 @@ const Projects = () => {
 
                 {/* Project Image and Play Button */}
                 <div className={`relative group ${
-                  project.title === 'Adrenaline Rush' ? 'lg:col-start-1' :
-                  project.title === 'Speed Demons' ? '' :
-                  project.title === 'Death Through Deception' ? 'lg:col-start-1' :
-                  project.title === 'Flight From The Mire' ? '' :
-                  project.title === 'Grave Interest' ? '' :
-                  project.title === 'Riftbreaker: Ascension' ? 'lg:col-start-1' :
-                  project.title === 'Autobahn' ? '' : 
-                  project.title === 'One Stormy Day' ? '' : 
+                  project.title === 'Adrenaline Rush' ? '' :
+                  project.title === 'Speed Demons' ? 'lg:col-start-1' :
+                  project.title === 'Death Through Deception' ? '' :
+                  project.title === 'Flight From The Mire' ? 'lg:col-start-1' :
+                  project.title === 'Grave Interest' ? 'lg:col-start-1' :
+                  project.title === 'Riftbreaker: Ascension' ? '' :
+                  project.title === 'Autobahn' ? '' :
+                  project.title === 'One Stormy Day' ? 'lg:col-start-1' :
                   project.title === 'Gyruss' ? 'lg:col-start-1' : ''
                 }`}>
                   <div className="relative overflow-hidden rounded-xl border border-primary/20 hover:border-primary/40 transition-all duration-300">
