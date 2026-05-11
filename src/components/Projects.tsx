@@ -38,7 +38,7 @@ const Projects = () => {
       id: 4,
       title: 'Speed Demons',
       description: 'This is a 3-D racing title made in Unreal Engine, where you have to reach checkpoints before the time runs out and in the final level you face off against an Ai car. Will you be able to achieve victory in this speed machine game?',
-      image: '/game-dev-portfolio/Screenshot_2026-03-13_215430.png',
+      image: '/game-dev-portfolio/Screenshot_2026-01-14_233353.png',
       playLink: '#' // Placeholder since it's in development
     },
     {
@@ -59,7 +59,7 @@ const Projects = () => {
       id: 7,
       title: 'Autobahn',
       description: 'Made a 2-D, GTA inspired, top-down pixilated game using a custom engine built in C++. You can choose which vehicle you want to drive before entering, avoid traffic as you try to escape from the cops, you can take 3 hits from other vehicles, but once you\'re caught by a cop its game over, this is endless, How far can you go?',
-      image: '/game-dev-portfolio/Screenshot_2026-05-01_161421.png',
+      image: '/game-dev-portfolio/Screenshot_2025-06-26_111940.png',
       playLink: 'https://joshuagoulden520.itch.io/autobahn'
     },
     {
