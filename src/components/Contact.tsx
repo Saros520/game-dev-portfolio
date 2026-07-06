@@ -132,7 +132,7 @@ const Contact = () => {
           </div>
 
           <p className="text-gray-300 mb-8">
-            I'm open to anything, Send me a message below if you're serious about contacting me to hire me or getting started on a project with me.
+            I'm available for new opportunities. Please send me a message if you are interested in hiring me or starting a project.
           </p>
         </div>
 
