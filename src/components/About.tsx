@@ -12,8 +12,10 @@ const About = () => {
     '2D Game Development',
     '3D Game Development',
     'Godot with GDScript',
-    'Unreal Engine with Blueprints',
-    'Unity Engine with C#'
+    'Unreal Engine with Blueprints and C++',
+    'Unity Engine with C#',
+    'Virtual Reality UI',
+    'Authentication'
   ];
 
   const achievements = [
@@ -55,7 +57,7 @@ const About = () => {
                 Hi, I'm Joshua Goulden
               </h3>
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                I'm a very passionate software and Game Developer with over a year and a half of experience creating immersive digital experiences. My journey began with a simple interest for Math & Physics, Technology, the weather and games which evolved overtime into a career dedicated to bringing innovative gaming concepts to life.
+                I'm a very passionate game developer and designer with a college diploma in computer programming and video game development. So I have 2 years behind me with creating immersive digital experiences. My journey began with a simple interest for Math & Physics, Technology, the weather and games which evolved overtime into a career dedicated to bringing innovative gaming concepts to life.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
                 When I'm not doing math & coding, you'll find me exploring the latest gaming trends, contributing to open-source projects, and brainstorming ideas for future projects such as new games or even a brand new game engine in the distant future etc.
@@ -100,7 +102,7 @@ const About = () => {
                   <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-3">
                     <User className="text-primary" size={24} />
                   </div>
-                  <div className="text-3xl font-bold text-primary mb-1">8</div>
+                  <div className="text-3xl font-bold text-primary mb-1">10</div>
                   <div className="text-gray-400 text-sm">Team Projects</div>
                 </div>
               </div>
