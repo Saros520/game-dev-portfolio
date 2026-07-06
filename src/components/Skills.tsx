@@ -39,8 +39,10 @@ const Skills = () => {
       { name: 'Davinci Resolve', logo: 'https://images.pexels.com/photos/3945313/pexels-photo-3945313.jpeg?auto=compress&cs=tinysrgb&w=64&h=64&fit=crop' },
       { name: 'Blender', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg' },
       { name: 'Maya', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maya/maya-original.svg' },
-      { name: 'Tiled', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tiled/tiled-original.svg' },
-      { name: 'Aseprite', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/aseprite/aseprite-original.svg' },
+      { name: 'Tiled', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tiled/tiled-original.svg' },
+      { name: 'Aseprite', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aseprite/aseprite-original.svg' },
+      { name: 'GIMP', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gimp/gimp-original.svg' },
+      { name: 'Audacity', logo: 'https://cdn.simpleicons.org/audacity' },
     ],
     'Other Useful Skills': [
       { name: 'Math & Physics', description: 'My math and physics skills consist of knowledge acquired from Saint Mary\'s University, which includes 1st year physics and calculus as well as 2nd year modern physics, intermediate calculus, and linear algebra. Also have experience from Eastern College on how to apply math and physics to games.' },
@@ -69,7 +71,7 @@ const Skills = () => {
               <div className="w-full p-6 text-left">
                 <h3 className="text-2xl font-semibold text-primary">Tech Stack</h3>
                 <p className="text-gray-300 mt-4 leading-relaxed">
-                  I have expertise in multiple programming languages and game engines. Such as custom engine development in C++ involving SDL and OpenGL, Pico8, Love2D involving Lua, Godot with GdScript, Unreal Engine with Blueprints plus currently learning C++ with Unreal in my internship, plus Unity with C#. I've so far worked on everything from Text-Based adventure games to more AAA experiences. My approach combines math & technical expertise with creative storytelling to create games that not only entertain but also inspire. I am very determined in creating engaging gameplay experiences, from concept to completion, with a focus on innovative mechanics and immersive storytelling.
+                  I have expertise in multiple programming languages and game engines. Such as custom engine development in C++ involving SDL and OpenGL, Pico8, Love2D involving Lua, Godot with GdScript, Unreal Engine using both Blueprints and C++, gained from participating in a Virtual Reality project during an internship at Spandrel Interactive, plus Unity with C#. I've so far worked on everything from Text-Based adventure games to more AAA experiences. My approach combines math & technical expertise with creative storytelling to create games that not only entertain but also inspire. I am very determined in creating engaging gameplay experiences, from concept to completion, with a focus on innovative mechanics and immersive storytelling.
                 </p>
               </div>
 
@@ -122,7 +124,7 @@ const Skills = () => {
               <div className="w-full p-6 text-left">
                 <h3 className="text-2xl font-semibold text-primary">Other Skills</h3>
                 <p className="text-gray-300 mt-4 leading-relaxed">
-                  I also have experience with video making/editing in multiple different applications such as Davinci Resolve and Adobe Premiere. Also improved audio quality on numerous video projects using Davinci Resolve. Have developed skills in Designing and Creating Assets for games such as characters, animation sprite sheets, chests, and Terrains in Maya, Tiled, and Aseprite. Used Blender to create a custom humanoid Skeleton rig in a timely manner for the final boss in Grave Interest involving Unity Engine. Still learning Blender and Maya during free time.
+                  I also have experience with video making/editing in multiple different applications such as Davinci Resolve and Adobe Premiere. Also improved audio quality on numerous video projects using Davinci Resolve. Have developed skills in Designing and Creating Assets for games such as characters, animation sprite sheets, chests, and Terrains in Maya, Tiled, and Aseprite. Used Blender to create a custom humanoid Skeleton rig in a timely manner for the final boss in Grave Interest involving Unity Engine. Still learning Blender and Maya during free time. I used GIMP to create individual building sprites by cutting out building artwork for a project during my internship. I also utilized Audacity to record and edit custom sound effects for different projects.
                 </p>
               </div>
 
