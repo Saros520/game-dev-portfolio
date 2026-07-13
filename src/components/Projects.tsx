@@ -38,7 +38,7 @@ const Projects = () => {
       id: 4,
       title: 'Speed Demons',
       description: 'This is a 3-D racing title made in Unreal Engine, where you have to reach checkpoints before the time runs out and in the final level you face off against an Ai car. Will you be able to achieve victory in this speed machine game?',
-      image: '/game-dev-portfolio/Screenshot_2026-01-14_233353.png'
+      image: '/game-dev-portfolio/Screenshot_2026-01-14_233353.png',
       playLink: '#' // Placeholder since it's in development
     },
     {
@@ -53,7 +53,7 @@ const Projects = () => {
       title: 'One Stormy Day',
       description: 'You play as a camper motoring his boat in the middle of a dangerous storm trying to return to his camp in this ominous, 2-D, side-scroller game made in Godot. Where you have to avoid rocks, and aquatic enemies. Will you be able to get off this treacherous lake in time?',
       image: '/game-dev-portfolio/Screenshot_2026-03-13_161859.png',
-      playLink: 'https://joshuagoulden520.itch.io/one-stormy-day'
+      playLink: '#' // Placeholder since it's in development
     },
     {
       id: 7,
