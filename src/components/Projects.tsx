@@ -53,7 +53,7 @@ const Projects = () => {
       title: 'One Stormy Day',
       description: 'You play as a camper motoring his boat in the middle of a dangerous storm trying to return to his camp in this ominous, 2-D, side-scroller game made in Godot. Where you have to avoid rocks, and aquatic enemies. Will you be able to get off this treacherous lake in time?',
       image: '/game-dev-portfolio/Screenshot_2026-03-13_161859.png',
-      playLink: '#' // Placeholder since it's in development
+      playLink: 'https://joshuagoulden520.itch.io/one-stormy-day'
     },
     {
       id: 7,
