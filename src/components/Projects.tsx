@@ -46,7 +46,7 @@ const Projects = () => {
       title: 'Adrenaline Rush',
       description: 'This is a 2-D, rage inducing platformer made in Unreal Engine. Where you play as a mountain climber attempting to retrieve as many lost soul coins as you can. Will you be able to reach the top of this mountain and return these poor souls trapped in coin back to their rightful place? Beware though, this is a challenge.',
       image: '/game-dev-portfolio/Screenshot_2026-01-13_005633.png',
-      playLink: '#' // Placeholder since it's in development
+      playLink: 'https://joshuagoulden520.itch.io/adrenaline-rush'
     },
     {
       id: 6,
