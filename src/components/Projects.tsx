@@ -39,7 +39,7 @@ const Projects = () => {
       title: 'Speed Demons',
       description: 'This is a 3-D racing title made in Unreal Engine, where you have to reach checkpoints before the time runs out and in the final level you face off against an Ai car. Will you be able to achieve victory in this speed machine game?',
       image: '/game-dev-portfolio/Screenshot_2026-01-14_233353.png',
-      playLink: '#' // Placeholder since it's in development
+      playLink: 'https://joshuagoulden520.itch.io/speed-demons'
     },
     {
       id: 5,
